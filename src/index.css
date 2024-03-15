@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.App {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 1rem;
+}
+
+.input-container input,
+.input-container label {
+  margin-right: 10px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input-container label {
+  font-weight: bold;
+}
+
+.input-container input {
+  flex: 1; /* Input alanını esnek boyutlandırma */
+}
+
+.button-container button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #646cff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+  background-color: #535bf2;
+}
+
+.movie-container {
+  margin-top: 20px;
+}
+
+.movie-item {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.movie-item h1 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.movie-item p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #666;
+}
+
+.movie-item button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff3333;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.movie-item button:hover {
+  background-color: #cc0000;
+}
